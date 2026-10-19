@@ -2,7 +2,6 @@
 > **Cerevyn Chitkara University — Round One Technical Assessment**  
 > Candidate Submission for Problem Statement 09 (PS09)
 
-[![CI / Test & Build](https://github.com/placeholder-org/ps09-adaptive-memory-game/actions/workflows/ci.yml/badge.svg)](https://github.com/placeholder-org/ps09-adaptive-memory-game/actions/workflows/ci.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.3-61dafb.svg)](https://react.dev/)
 [![Vitest](https://img.shields.io/badge/Vitest-2.1-yellow.svg)](https://vitest.dev/)
