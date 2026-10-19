@@ -1,0 +1,20 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/assets/*.{css,js}", "/favicon.svg", "/*.{png,ico,json}"]
+  },
+  "mimeTypes": {
+    ".json": "text/json"
+  },
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html",
+      "statusCode": 200
+    }
+  },
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Content-Security-Policy": "default-src 'self' 'unsafe-inline'; img-data: data: 'self';"
+  }
+}
